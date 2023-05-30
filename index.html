@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>duckified-beatbox</title>
+    <!--link rel="shortcut icon" href="./assets/images.png" type="image/x-icon"-->
+    <link rel="stylesheet" href="https://use.typekit.net/rgc7hfc.css">
+    <link rel="stylesheet" type="text/css" href="./assets/beatbox.css">
+    <link rel="stylesheet" type="text/css" href="./assets/slider.css">
+    <script type="text/javascript" src="./lib/js/bundle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/3c8cd54c24.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="page-container">
+      <div id="cssSelector">
+          <!--div class="el"-->
+            <h1 class="page-title">duckified-beatbox</h1>
+          <!--/div-->
+      </div>
+      <div class="logo">
+        <img id="aflac-logo" src="./assets/duck-square-400.jpg" data-src="./assets/duck-square-400.jpg" alt="The Aflac Duck" width="100%" height="100%">
+      </div>
+      <div class="beatbox">
+      </div>
+      <section class="beats">
+        <audio id="snare" src="./lib/beats/SnareFuture02.wav" type="audio/wav"></audio>
+        <audio id="claps" src="./lib/beats/ClapsFuture07.wav" type="audio/wav"></audio>
+        <audio id="tom" src="./lib/beats/MustardFXTom1.wav" type="audio/wav"></audio>
+        <audio id="hat" src="./lib/beats/MustardHat07.wav" type="audio/wav"></audio>
+        <audio id="kick-1" src="./lib/beats/KickFuture01.wav" type="audio/wav"></audio>
+        <audio id="duck-1" src="./lib/beats/aflac-from-web.wav" type="audio/wav"></audio>
+      </section>
+      <aside class="controller">
+        <i id="reset" class="fa fa-circle-xmark" aria-hidden="true"></i>
+        <i id="pause" class="fa fa-pause" aria-hidden="true"></i>
+        <i id="play" class="fa fa-play" aria-hidden="true"></i>
+        <i id="volume" class="fa fa-volume-up" aria-hidden="true"></i>
+        <i id="mute" class="fa fa-volume-xmark" aria-hidden="true"></i>
+      </aside>
+      <label class="tempo" for="tempo">Tempo
+        <input id="tempo" type="range" max="950" min="200" value="575"></input>
+      </label>
+    </div>
+  </body>
+</html>
