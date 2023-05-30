@@ -22,6 +22,18 @@
         <img id="aflac-logo" src="./assets/duck-square-400.jpg" data-src="./assets/duck-square-400.jpg" alt="The Aflac Duck" width="100%" height="100%">
       </div>
       <div class="beatbox">
+        <audio id="foundationtrack" src="./lib/beats/483402__josefpres__01-disco-bass-loop-120-bpm.wav" type="audio/wav" loop="true"></audio>
+        <script type="text/javascript">
+          function foundation() {
+              var audio = document.getElementById('foundationtrack');
+              if (audio.paused) {
+                  audio.play();
+              }else{
+                  audio.pause();
+                  audio.currentTime = 0
+              }
+          }
+        </script>  
       </div>
       <section class="beats">
         <audio id="snare" src="./lib/beats/SnareFuture02.wav" type="audio/wav"></audio>
@@ -33,8 +45,8 @@
       </section>
       <aside class="controller">
         <i id="reset" class="fa fa-circle-xmark" aria-hidden="true"></i>
-        <i id="pause" class="fa fa-pause" aria-hidden="true"></i>
-        <i id="play" class="fa fa-play" aria-hidden="true"></i>
+        <i id="pause" class="fa fa-pause" aria-hidden="true" onclick="foundation()"></i>
+        <i id="play" class="fa fa-play" aria-hidden="true" onclick="foundation()"></i>
         <i id="volume" class="fa fa-volume-up" aria-hidden="true"></i>
         <i id="mute" class="fa fa-volume-xmark" aria-hidden="true"></i>
       </aside>

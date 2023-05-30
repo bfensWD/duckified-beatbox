@@ -152,22 +152,6 @@ i.off {
   color: white;
 }
 
-.contact-links {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: transparent;
-}
-
-#github-icon, #linkedin-icon {
-  color: #F89728;
-  margin: 10px 15px;
-}
-
-#github-icon:hover, #linkedin-icon:hover {
-  font-size: 40px;
-}
-
 #tempo {
   margin: 25px;
   width: 500px;
