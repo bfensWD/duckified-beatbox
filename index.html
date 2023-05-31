@@ -27,6 +27,7 @@
           function foundation() {
               var audio = document.getElementById('foundationtrack');
               if (audio.paused) {
+                  audio.volume=0.2;
                   audio.play();
               }else{
                   audio.pause();
