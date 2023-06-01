@@ -29,7 +29,7 @@
               var audio = document.getElementById('foundationtrack');
               if (audio.paused) {
                   audio.volume=0.2;
-                  audio.playbackRate=1.24;
+                  audio.playbackRate=1.1;
                   audio.play();
               }else{
                   audio.pause();
@@ -39,14 +39,14 @@
         </script>  
         <!--temp-->
       <section class="beats">
+        <audio id="duck-1" src="./lib/beats/duck_master_1.wav" type="audio/wav"></audio>
+        <audio id="duck-2" src="./lib/beats/duck_master_2.wav" type="audio/wav"></audio>
+        <audio id="duck-3" src="./lib/beats/duck_master_3.wav" type="audio/wav"></audio>
         <audio id="snare" src="./lib/beats/SnareFuture02.wav" type="audio/wav"></audio>
         <audio id="claps" src="./lib/beats/ClapsFuture07.wav" type="audio/wav"></audio>
         <audio id="tom" src="./lib/beats/MustardFXTom1.wav" type="audio/wav"></audio>
         <audio id="hat" src="./lib/beats/MustardHat07.wav" type="audio/wav"></audio>
         <audio id="kick" src="./lib/beats/KickFuture01.wav" type="audio/wav"></audio>
-        <audio id="duck-1" src="./lib/beats/duck_master_1.wav" type="audio/wav"></audio>
-        <audio id="duck-2" src="./lib/beats/duck_master_2.wav" type="audio/wav"></audio>
-        <audio id="duck-3" src="./lib/beats/duck_master_3.wav" type="audio/wav"></audio>
       </section>
       <aside class="controller">
         <i id="reset" class="fa fa-circle-xmark" aria-hidden="true"></i>
