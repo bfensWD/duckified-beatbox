@@ -24,22 +24,21 @@ a {
 }
 
 body {
-  /*width: 100vh;
-  height: 100vh;*/
-  background-color: white;
+  background-color: #f0f3f4;
 }
 
 .page-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
   height: 768px;
   width: 1366px;
+  margin: 0 auto;
   background: inherit;
-  background-image: url("Aflac_landing_page.png");
+  background-image: url("Aflac_landing_page_v2.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  clip-path: inset(0% 1%);
   /*background-color: #01A7E1;*/
 }
 
@@ -60,10 +59,8 @@ h1.page-title {
   justify-content: center;
   align-items: center;
 /*  border: 1px solid black;
-  background-color: black;
-  width: 46vw;
-  height: 30vh;*/
-  margin-top: 382px;
+  background-color: black;*/
+  margin-top: 346px;
   margin-left:2px
 }
 
