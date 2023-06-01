@@ -63,6 +63,7 @@ h1.page-title {
   width: 46vw;
   height: 30vh;
   margin-top: 54vh;
+  margin-left:1vw
 }
 
 .beatbox ul {
@@ -100,6 +101,16 @@ li.active {
   border: 1px solid #F89728;
   border-radius: 5px;
   transition: 0.2s;
+}
+
+.beat-row-label {
+  border: 1px solid black!important;
+  border-radius: 0px!important;
+  background-color: black!important;
+  cursor: default!important;
+  color: white;
+  font-size: x-small;
+  opacity: 0.1;
 }
 
 .fa {
