@@ -28,7 +28,7 @@
           function foundationLoop() {
               var player = document.getElementById('foundation-track');
                 player.volume=0.2;
-                player.playbackRate=1.24;
+                player.playbackRate=1.12;
               if (player.paused) {
                   player.play();
               } else {
@@ -42,11 +42,20 @@
             tracks: ['./lib/loops/568379__danlucaz__eletro-hit-9.wav'],
             loop: true,
             volume: 0.2,
-            playbackRate: 1.24,
+            playbackRate: 1.12,
           });
           var mute = true;
 
+          function wait(ms)
+          {
+              var d = new Date();
+              var d2 = null;
+              do { d2 = new Date(); }
+              while(d2-d < ms);
+          }
+
           function foundationLoop() {
+            wait(400);
             if (mute === true) {
               player.play();
               mute = false;
