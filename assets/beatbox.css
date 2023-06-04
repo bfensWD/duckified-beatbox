@@ -120,8 +120,13 @@ li.active {
 }
 
 .beat-track-selector {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
   width: 58px!important;
   background-color: transparent!important;;
+  background: url(../assets/caret-down-white-outline.svg) no-repeat right center;
+  background-size: contain;
   border: 0.5px solid transparent!important;;
   border-radius: 0px!important;
   border-bottom: 0.5px solid white!important;;
@@ -132,7 +137,6 @@ li.active {
   font-size: x-small;
   font-weight: 350;
   color: white;
-  -webkit-appearance: none;
 }
 
 .fa {
