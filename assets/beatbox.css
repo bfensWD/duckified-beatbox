@@ -132,6 +132,7 @@ li.active {
   font-size: x-small;
   font-weight: 350;
   color: white;
+  -webkit-appearance: none;
 }
 
 .fa {
