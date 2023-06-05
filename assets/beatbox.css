@@ -103,8 +103,7 @@ li.active {
 }
 
 .beat-row-label {
-/*  width: 48px!important; */
-  width: auto!important;
+  width: 54px!important;
   background-color: transparent!important;
   border: 0.5px solid transparent!important;
   border-radius: 0px!important;
@@ -114,7 +113,7 @@ li.active {
   text-transform: uppercase;
   font-size: x-small;
   font-weight: 350;
-  text-align: center;
+  text-align: left;
   line-height: 2.0;
   color: white;
 }
@@ -123,7 +122,7 @@ li.active {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  width: 58px!important;
+  width: 52px!important;
   background-color: transparent!important;;
   background: url(../assets/caret-down-white-outline.svg) no-repeat right center;
   background-size: contain;
