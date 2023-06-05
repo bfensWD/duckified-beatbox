@@ -42,7 +42,7 @@ body {
   width: 1366px;
   margin: 0 auto;
   background: inherit;
-  background-image: url("Aflac_landing_page_v2.png");
+  background-image: url("Aflac_landing_page_v3.png");
   background-size: 100%;
   background-repeat: no-repeat;
   clip-path: inset(0% 1%);
@@ -150,7 +150,7 @@ li.active {
 }
 
 .fa {
-  color: #f32a29;
+  color: #ae3a39;
   font-size: 16px!important;
   transition: 0.5s;
 }
@@ -164,15 +164,15 @@ li.active {
   display: flex;
   justify-content: space-between;
   width: 200px;
-  padding-top: 36px;
+  padding-top: 38px;
   padding-bottom: 8px;
   padding-left: 16px;
   padding-right: 16px;
-  border: 2px solid black;
-  border-radius: 5px;
   margin: 16px;
+/*  border: 2px solid black;
+  border-radius: 5px;
   background-color: black;
-  opacity: 0.6;
+  opacity: 0.6; */
 }
 
 li.on {
