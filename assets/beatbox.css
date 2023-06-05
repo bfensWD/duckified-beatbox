@@ -145,7 +145,7 @@ li.active {
 }
 
 .beat-track-selector  > option {
-  background-color: transparent!important;
+  background-color: #bbb!important;
   color: white;
 }
 
