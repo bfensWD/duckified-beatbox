@@ -20,9 +20,11 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+/*
 :root{
   color-scheme: light dark;
 }
+*/
 
 a {
   text-decoration: none;
@@ -127,7 +129,7 @@ li.active {
   -webkit-appearance: none;
   appearance: none;
   width: 52px!important;
-  background-color: transparent!important;;
+  background-color: transparent!important;
   background: url(../assets/caret-down-white-outline.svg) no-repeat right center;
   background-size: contain;
   border: 0.5px solid transparent!important;;
@@ -139,7 +141,12 @@ li.active {
   text-transform: uppercase;
   font-size: x-small;
   font-weight: 350;
-/*  color: white; */
+  color: white;
+}
+
+.beat-track-selector :focus {
+  background-color: transparent!important;
+  color: white;
 }
 
 .fa {
