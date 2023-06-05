@@ -20,6 +20,10 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+:root{
+  color-scheme: light dark;
+}
+
 a {
   text-decoration: none;
 }
