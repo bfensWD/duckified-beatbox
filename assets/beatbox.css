@@ -139,7 +139,7 @@ li.active {
   text-transform: uppercase;
   font-size: x-small;
   font-weight: 350;
-  color: white;
+/*  color: white; */
 }
 
 .fa {
